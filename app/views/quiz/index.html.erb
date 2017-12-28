@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>Question</th>
+    <th>Answer</th>
+    <th></th>
+  </tr>
+ 
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.question %></td>
+      <td><%= article.answer %></td>
+    </tr>
+  <% end %>
+</table>

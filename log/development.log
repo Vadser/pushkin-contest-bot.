@@ -1,0 +1,1386 @@
+Started GET "/articles" for 127.0.0.1 at 2017-12-24 14:06:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz" for 127.0.0.1 at 2017-12-24 14:06:38 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/quiz"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-12-24 14:06:46 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (8.7ms)
+Completed 200 OK in 325ms (Views: 11.7ms)
+
+
+Started GET "/quiz" for 127.0.0.1 at 2017-12-24 14:13:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/quiz"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?cbbdfgd" for 127.0.0.1 at 2017-12-24 14:16:16 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"cbbdfgd"=>nil}
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (6.6ms)
+Completed 200 OK in 184ms (Views: 10.8ms)
+
+
+Started GET "/?cbbdfgd" for 127.0.0.1 at 2017-12-24 14:16:45 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"cbbdfgd"=>nil}
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (6.1ms)
+Completed 200 OK in 178ms (Views: 10.4ms)
+
+
+Started GET "/?id=sdsf" for 127.0.0.1 at 2017-12-24 14:17:12 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"id"=>"sdsf"}
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.7ms)
+Completed 200 OK in 9ms (Views: 7.4ms)
+
+
+Started GET "/?id=sdsf" for 127.0.0.1 at 2017-12-24 14:18:04 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"id"=>"sdsf"}
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (7.2ms)
+Completed 200 OK in 208ms (Views: 11.8ms)
+
+
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 14:18:26 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/quiz"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?id=sdsf" for 127.0.0.1 at 2017-12-24 14:54:30 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"id"=>"sdsf"}
+  Rendering /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.3.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (6.1ms)
+Completed 200 OK in 183ms (Views: 10.4ms)
+
+
+Started GET "/?id=sdsf" for 127.0.0.1 at 2017-12-24 14:59:22 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"sdsf"}
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:00:08 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/quiz"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:03:10 +0300
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:07:11 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/quiz"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:09:18 +0300
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for QuizController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:09:35 +0300
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for QuizController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:09:49 +0300
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for QuizController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:09:52 +0300
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for QuizController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz/?id=sdsf" for 127.0.0.1 at 2017-12-24 15:10:20 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"sdsf"}
+Completed 406 Not Acceptable in 41266ms
+
+
+  
+ActionController::UnknownFormat (QuizController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz/?id=fdfgd" for 127.0.0.1 at 2017-12-24 15:11:10 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"fdfgd"}
+Started GET "/" for 127.0.0.1 at 2017-12-24 15:13:34 +0300
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 167717ms (Views: 1165.5ms)
+
+
+Processing by QuizController#index as HTML
+Started GET "/quiz" for 127.0.0.1 at 2017-12-24 15:13:58 +0300
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22994ms (Views: 20.8ms)
+
+
+Processing by QuizController#index as HTML
+Started GET "/quiz" for 127.0.0.1 at 2017-12-24 15:14:39 +0300
+Processing by QuizController#index as HTML
+Started GET "/quiz" for 127.0.0.1 at 2017-12-24 15:14:57 +0300
+Processing by QuizController#index as HTML
+Started GET "/quiz/?dfdsfds=dsfdsfdsfds" for 127.0.0.1 at 2017-12-24 15:15:14 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"dfdsfds"=>"dsfdsfdsfds"}
+Started GET "/" for 127.0.0.1 at 2017-12-24 15:18:40 +0300
+Processing by QuizController#index as HTML
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 37034ms (Views: 266.4ms)
+
+
+Started GET "/quiz/?dfdsfdsf=%D0%B0%D0%B2%D1%8B%D0%B0%D0%B2%D1%8B%D0%B0%D0%B2%D1%8B%D0%B0%D0%B2%D1%8B" for 127.0.0.1 at 2017-12-24 15:19:50 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"dfdsfdsf"=>"авыавыавыавы"}
+Started GET "/articles" for 127.0.0.1 at 2017-12-24 15:51:38 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/articles"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/quiz" for 127.0.0.1 at 2017-12-24 15:51:43 +0300
+Processing by QuizController#index as HTML
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 449ms (Views: 267.5ms)
+
+
+Started GET "/?id=sdsf" for 127.0.0.1 at 2017-12-27 14:14:49 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"sdsf"}
+Completed 500 Internal Server Error in 291ms
+
+
+  
+NameError (uninitialized constant QuizController::Mechanize):
+  
+app/controllers/quiz_controller.rb:18:in `get_out'
+app/controllers/quiz_controller.rb:34:in `search'
+app/controllers/quiz_controller.rb:5:in `index'
+Started GET "/quiz/?id=%D0%A1%D0%BC%D0%BE%D1%82%D1%80%D0%B8,%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9%20%D0%B7%D0%B4%D0%B5%D1%81%D1%8C%20%D0%B2%D0%B8%D0%B4:%20%D0%B8%D0%B7%D0%B1%D1%83%D1%88%D0%B5%D0%BA%20%D1%80%D1%8F%D0%B4%20%D1%83%D0%B1%D0%BE%D0%B3%D0%BE%D0%B9," for 127.0.0.1 at 2017-12-27 14:16:43 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Смотри, какой здесь вид: избушек ряд убогой,"}
+Completed 500 Internal Server Error in 749ms
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/quiz_controller.rb:26:in `block in pars'
+app/controllers/quiz_controller.rb:25:in `pars'
+app/controllers/quiz_controller.rb:20:in `get_out'
+app/controllers/quiz_controller.rb:34:in `search'
+app/controllers/quiz_controller.rb:5:in `index'
+Started GET "/quiz/?id=%D0%A1%D0%BC%D0%BE%D1%82%D1%80%D0%B8,%20%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9%20%D0%B7%D0%B4%D0%B5%D1%81%D1%8C%20%D0%B2%D0%B8%D0%B4:%20%D0%B8%D0%B7%D0%B1%D1%83%D1%88%D0%B5%D0%BA%20%D1%80%D1%8F%D0%B4%20%D1%83%D0%B1%D0%BE%D0%B3%D0%BE%D0%B9," for 127.0.0.1 at 2017-12-27 14:17:24 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Смотри, какой здесь вид: избушек ряд убогой,"}
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 14:18:11 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18959ms (Views: 548.4ms)
+
+
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 14:28:07 +0300
+Processing by QuizController#index as HTML
+Completed 500 Internal Server Error in 935ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/quiz_controller.rb:39:in `include?'
+app/controllers/quiz_controller.rb:39:in `block in search'
+app/controllers/quiz_controller.rb:38:in `each'
+app/controllers/quiz_controller.rb:38:in `search'
+app/controllers/quiz_controller.rb:7:in `index'
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 14:29:05 +0300
+Processing by QuizController#index as HTML
+Completed 500 Internal Server Error in 1439ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/quiz_controller.rb:39:in `include?'
+app/controllers/quiz_controller.rb:39:in `block in search'
+app/controllers/quiz_controller.rb:38:in `each'
+app/controllers/quiz_controller.rb:38:in `search'
+app/controllers/quiz_controller.rb:7:in `index'
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 14:29:25 +0300
+Processing by QuizController#index as HTML
+Completed 500 Internal Server Error in 1327ms
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/quiz_controller.rb:39:in `include?'
+app/controllers/quiz_controller.rb:39:in `block in search'
+app/controllers/quiz_controller.rb:38:in `each'
+app/controllers/quiz_controller.rb:38:in `search'
+app/controllers/quiz_controller.rb:7:in `index'
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 14:30:43 +0300
+Processing by QuizController#index as HTML
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 14:30:53 +0300
+Processing by QuizController#index as HTML
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 92165ms (Views: 496.4ms)
+
+
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 14:35:02 +0300
+Processing by QuizController#index as HTML
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 14:37:43 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!%20&dg=localhost:3000/quiz" for 127.0.0.1 at 2017-12-27 14:38:59 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx! ", "dg"=>"localhost:3000/quiz"}
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!%20&dg=localhost:3000/quiz" for 127.0.0.1 at 2017-12-27 14:40:12 +0300
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 181323ms (Views: 25.4ms)
+
+
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 267756ms (Views: 25.9ms)
+
+
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!%20&dg=xcvcxv" for 127.0.0.1 at 2017-12-27 14:43:06 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx! ", "dg"=>"xcvcxv"}
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 14:43:24 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!%20&dg=xcvcxv" for 127.0.0.1 at 2017-12-27 14:44:47 +0300
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:11:45 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:12:02 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+Started GET "/" for 127.0.0.1 at 2017-12-27 15:16:11 +0300
+Processing by QuizController#index as HTML
+Started GET "/" for 127.0.0.1 at 2017-12-27 15:16:14 +0300
+Processing by QuizController#index as HTML
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4716ms (Views: 615.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-12-27 15:21:17 +0300
+Processing by QuizController#index as HTML
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4407ms (Views: 20.2ms)
+
+
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:21:33 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:21:37 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5063ms (Views: 44.1ms)
+
+
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:21:47 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26787ms (Views: 18.8ms)
+
+
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:22:14 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9593ms (Views: 33.6ms)
+
+
+Started GET "/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:26:20 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4575ms (Views: 42.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (146.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (87.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20171227122751)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "question" varchar, "answer" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171227122751"]]
+  [1m[35m (95.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-27 12:28:33.908464"], ["updated_at", "2017-12-27 12:28:33.908464"]]
+  [1m[35m (57.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:37:28 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-27 12:37:29.999432"], ["updated_at", "2017-12-27 12:37:29.999432"]]
+  [1m[35m (122.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 960ms (ActiveRecord: 125.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:     <th></th>
+     8:   </tr>
+     9:  
+    10:   <% @articles.each do |article| %>
+    11:     <tr>
+    12:       <td><%= article.question %></td>
+    13:       <td><%= article.answer %></td>
+  
+app/views/quiz/index.html.erb:10:in `_app_views_quiz_index_html_erb__33962640_96218110'
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:37:40 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:37:41.267676"], ["updated_at", "2017-12-27 12:37:41.267676"]]
+  [1m[35m (75.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 907ms (ActiveRecord: 76.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:     <th></th>
+     8:   </tr>
+     9:  
+    10:   <% @articles.each do |article| %>
+    11:     <tr>
+    12:       <td><%= article.question %></td>
+    13:       <td><%= article.answer %></td>
+  
+app/views/quiz/index.html.erb:10:in `_app_views_quiz_index_html_erb__33962640__631660108'
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:40:26 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:40:27.236257"], ["updated_at", "2017-12-27 12:40:27.236257"]]
+  [1m[35m (61.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  Rendered quiz/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 1048ms (ActiveRecord: 64.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:     <th></th>
+     8:   </tr>
+     9:  
+    10:   <% @articles.each do |article| %>
+    11:     <tr>
+    12:       <td><%= article.question %></td>
+    13:       <td><%= article.answer %></td>
+  
+app/views/quiz/index.html.erb:10:in `_app_views_quiz_index_html_erb___205167714_101421550'
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:42:09 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:42:10.261318"], ["updated_at", "2017-12-27 12:42:10.261318"]]
+  [1m[35m (73.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to 
+Completed 500 Internal Server Error in 1178ms (ActiveRecord: 76.0ms)
+
+
+  
+NoMethodError (undefined method `article_url' for #<QuizController:0xb7bb578>):
+  
+app/controllers/quiz_controller.rb:11:in `index'
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:43:49 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:43:50.031725"], ["updated_at", "2017-12-27 12:43:50.031725"]]
+  [1m[35m (61.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 1173ms (Views: 475.9ms | ActiveRecord: 63.5ms)
+
+
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:45:13 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:45:14.158669"], ["updated_at", "2017-12-27 12:45:14.158669"]]
+  [1m[35m (48.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 815ms (Views: 24.8ms | ActiveRecord: 50.5ms)
+
+
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 15:48:47 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+Completed 500 Internal Server Error in 202ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `question' for #<QuizController:0xc4b1e80>):
+  
+app/controllers/quiz_controller.rb:5:in `index'
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 15:49:59 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+Started POST "/quiz" for 127.0.0.1 at 2017-12-27 15:49:59 +0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for QuizController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-27 12:50:00.626428"], ["updated_at", "2017-12-27 12:50:00.626428"]]
+  [1m[35m (65.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1427ms (Views: 289.2ms | ActiveRecord: 67.6ms)
+
+
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 15:50:09 +0300
+Processing by QuizController#index as HTML
+Started POST "/quiz" for 127.0.0.1 at 2017-12-27 15:50:09 +0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for QuizController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-27 12:50:09.979893"], ["updated_at", "2017-12-27 12:50:09.979893"]]
+  [1m[35m (65.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 971ms (Views: 31.1ms | ActiveRecord: 68.3ms)
+
+
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:51:38 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-27 12:51:39.328081"], ["updated_at", "2017-12-27 12:51:39.328081"]]
+  [1m[35m (71.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 988ms (Views: 22.9ms | ActiveRecord: 73.9ms)
+
+
+Started GET "/quiz/?id=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:51:52 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"id"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-27 12:51:53.370918"], ["updated_at", "2017-12-27 12:51:53.370918"]]
+  [1m[35m (65.6ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1293ms (Views: 20.7ms | ActiveRecord: 66.3ms)
+
+
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 15:52:17 +0300
+Processing by QuizController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-27 12:52:18.160381"], ["updated_at", "2017-12-27 12:52:18.160381"]]
+  [1m[35m (109.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1050ms (Views: 25.6ms | ActiveRecord: 110.4ms)
+
+
+Started GET "/quiz" for 127.0.0.1 at 2017-12-27 15:53:10 +0300
+Processing by QuizController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-27 12:53:11.462739"], ["updated_at", "2017-12-27 12:53:11.462739"]]
+  [1m[35m (162.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1037ms (Views: 36.9ms | ActiveRecord: 164.5ms)
+
+
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-27 15:53:50 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:53:51.779640"], ["updated_at", "2017-12-27 12:53:51.779640"]]
+  [1m[35m (76.6ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1147ms (Views: 26.0ms | ActiveRecord: 78.0ms)
+
+
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!&id=54" for 127.0.0.1 at 2017-12-27 15:54:02 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!", "id"=>"54"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:54:02.950215"], ["updated_at", "2017-12-27 12:54:02.950215"]]
+  [1m[35m (76.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 866ms (Views: 22.0ms | ActiveRecord: 77.4ms)
+
+
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!&id=54" for 127.0.0.1 at 2017-12-27 15:54:16 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!", "id"=>"54"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-27 12:54:17.904578"], ["updated_at", "2017-12-27 12:54:17.904578"]]
+  [1m[35m (75.5ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 1330ms (Views: 53.2ms | ActiveRecord: 76.6ms)
+
+
+Started GET "/quiz/?question=%D0%AF%20%D0%BF%D1%8C%D1%8E%20%D0%BE%D0%B4%D0%B8%D0%BD,%20%D0%B8%20%D0%BD%D0%B0%20%D0%B1%D1%80%D0%B5%D0%B3%D0%B0%D1%85%20%D0%9D%D0%B5%D0%B2%D1%8B" for 127.0.0.1 at 2017-12-27 18:34:43 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Я пью один, и на брегах Невы"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Я пью один, и на брегах Невы"], ["answer", "19 октября 1825"], ["created_at", "2017-12-27 15:34:44.838680"], ["updated_at", "2017-12-27 15:34:44.838680"]]
+  [1m[35m (51.5ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1196ms (Views: 347.9ms | ActiveRecord: 54.3ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (94.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (75.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20171227122751)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "question" varchar, "answer" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171227122751"]]
+  [1m[35m (78.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-27 16:10:55.787750"], ["updated_at", "2017-12-27 16:10:55.787750"]]
+  [1m[35m (49.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/quiz/?question=%D0%AF%20%D0%BF%D1%8C%D1%8E%20%D0%BE%D0%B4%D0%B8%D0%BD,%20%D0%B8%20%D0%BD%D0%B0%20%D0%B1%D1%80%D0%B5%D0%B3%D0%B0%D1%85%20%D0%9D%D0%B5%D0%B2%D1%8B" for 127.0.0.1 at 2017-12-27 19:11:13 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Я пью один, и на брегах Невы"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Я пью один, и на брегах Невы"], ["answer", "19 октября 1825"], ["created_at", "2017-12-27 16:11:14.044166"], ["updated_at", "2017-12-27 16:11:14.044166"]]
+  [1m[35m (66.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 1068ms (Views: 288.6ms | ActiveRecord: 68.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+Started GET "/quiz/?question=%D0%AF%20%D0%BF%D1%8C%D1%8E%20%D0%BE%D0%B4%D0%B8%D0%BD,%20%D0%B8%20%D0%BD%D0%B0%20%D0%B1%D1%80%D0%B5%D0%B3%D0%B0%D1%85%20%D0%9D%D0%B5%D0%B2%D1%8B" for 127.0.0.1 at 2017-12-27 19:11:40 +0300
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (105.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (85.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20171227122751)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "question" varchar, "answer" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171227122751"]]
+  [1m[35m (77.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-27 16:11:53.053335"], ["updated_at", "2017-12-27 16:11:53.053335"]]
+  [1m[35m (65.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/quiz/?question=%D0%AF%20%D0%BF%D1%8C%D1%8E%20%D0%BE%D0%B4%D0%B8%D0%BD,%20%D0%B8%20%D0%BD%D0%B0%20%D0%B1%D1%80%D0%B5%D0%B3%D0%B0%D1%85%20%D0%9D%D0%B5%D0%B2%D1%8B" for 127.0.0.1 at 2017-12-27 19:12:01 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Я пью один, и на брегах Невы"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Я пью один, и на брегах Невы"], ["answer", "19 октября 1825"], ["created_at", "2017-12-27 16:12:02.139916"], ["updated_at", "2017-12-27 16:12:02.139916"]]
+  [1m[35m (47.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1052ms (Views: 290.4ms | ActiveRecord: 50.4ms)
+
+
+Started GET "/quiz/?question=%D0%A1%D1%82%D0%B0%D1%80%D1%86%D0%B0%20%D0%B2%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%82%D0%B5%D0%BD%D1%8C%20%D1%87%D1%83%D1%8E%20%D1%81%D0%BC%D1%83%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D0%B4%D1%83%D1%88%D0%BE%D0%B9." for 127.0.0.1 at 2017-12-27 19:12:41 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Старца великого тень чую смущенной душой."}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Старца великого тень чую смущенной душой."], ["answer", "На перевод Илиады"], ["created_at", "2017-12-27 16:12:42.609570"], ["updated_at", "2017-12-27 16:12:42.609570"]]
+  [1m[35m (62.7ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1383ms (Views: 27.4ms | ActiveRecord: 64.3ms)
+
+
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-28 11:31:53 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-28 08:31:55.136781"], ["updated_at", "2017-12-28 08:31:55.136781"]]
+  [1m[35m (99.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 1184ms (ActiveRecord: 101.7ms)
+
+
+  
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+NameError (undefined local variable or method `fc6787217b59566f1bee76ee5d8543ab' for #<QuizController:0xbb3df70>):
+  
+app/controllers/quiz_controller.rb:18:in `answer'
+app/controllers/quiz_controller.rb:12:in `index'
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-28 11:34:08 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-28 08:34:11.527350"], ["updated_at", "2017-12-28 08:34:11.527350"]]
+  [1m[35m (62.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 3567ms (ActiveRecord: 64.5ms)
+
+
+  
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+NameError (undefined local variable or method `fc6787217b59566f1bee76ee5d8543ab' for #<QuizController:0xbeccdf8>):
+  
+app/controllers/quiz_controller.rb:18:in `answer'
+app/controllers/quiz_controller.rb:12:in `index'
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-28 11:34:50 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-28 08:34:51.066175"], ["updated_at", "2017-12-28 08:34:51.066175"]]
+  [1m[35m (67.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 1506ms (ActiveRecord: 68.9ms)
+
+
+  
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+NameError (undefined local variable or method `fc6787217b59566f1bee76ee5d8543ab' for #<QuizController:0xbd657a8>):
+  
+app/controllers/quiz_controller.rb:18:in `answer'
+app/controllers/quiz_controller.rb:12:in `index'
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-28 11:35:05 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-28 08:35:07.337063"], ["updated_at", "2017-12-28 08:35:07.337063"]]
+  [1m[35m (58.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1756ms (Views: 473.6ms | ActiveRecord: 60.9ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (87.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (76.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArticles (20171227122751)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "articles" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "question" varchar, "answer" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171227122751"]]
+  [1m[35m (80.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-12-28 08:35:48.977411"], ["updated_at", "2017-12-28 08:35:48.977411"]]
+  [1m[35m (59.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/quiz" for 127.0.0.1 at 2017-12-28 11:45:19 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2017-12-28 08:45:20.081867"], ["updated_at", "2017-12-28 08:45:20.081867"]]
+  [1m[35m (104.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1216ms (Views: 292.1ms | ActiveRecord: 107.0ms)
+
+
+Started GET "/quiz/?question=%D0%9A%D1%83%D0%B4%D0%B0%20%D1%82%D1%8B%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%B8%20cyx!" for 127.0.0.1 at 2017-12-28 17:55:07 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Куда ты холоден и cyx!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Куда ты холоден и cyx!"], ["answer", "Русскому геснеру"], ["created_at", "2017-12-28 14:55:08.534394"], ["updated_at", "2017-12-28 14:55:08.534394"]]
+  [1m[35m (68.6ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1279ms (Views: 309.0ms | ActiveRecord: 71.6ms)
+
+
+Started GET "/quiz/?question=%D0%97%D0%B0%D0%BB%D0%BE%D0%B3%20%D0%B4%D0%BE%D1%81%D1%82%D0%BE%D0%B9%D0%BD%D0%B5%D0%B5%20%D1%82%D0%B5%D0%B1%D1%8F," for 127.0.0.1 at 2017-12-28 17:55:12 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Залог достойнее тебя,"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "articles" ("question", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["question", "Залог достойнее тебя,"], ["created_at", "2017-12-28 14:55:13.600527"], ["updated_at", "2017-12-28 14:55:13.600527"]]
+  [1m[35m (95.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 975ms (Views: 57.9ms | ActiveRecord: 97.1ms)
+
+
+Started GET "/quiz/?question=%D0%92%D0%B5%D0%BD%D1%87%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%BB%D0%B0%D0%B2%D1%80%D0%B0%D0%BC%D0%B8,%20%D0%B2%20%D0%B1%D0%BB%D0%B5%D1%81%D1%82%D1%8F%D1%89%D0%B5%D0%B9%20%D0%B1%D0%B0%D0%B3%D1%80%D1%8F%D0%BD%D0%B8%D1%86%D0%B5," for 127.0.0.1 at 2017-12-28 17:56:07 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Венчанный лаврами, в блестящей багрянице,"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "articles" ("question", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["question", "Венчанный лаврами, в блестящей багрянице,"], ["created_at", "2017-12-28 14:56:08.861536"], ["updated_at", "2017-12-28 14:56:08.861536"]]
+  [1m[35m (74.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 1133ms (Views: 47.7ms | ActiveRecord: 75.3ms)
+
+
+Started GET "/quiz/?question=%D0%A2%D0%B5%D0%BF%D0%B5%D1%80%D1%8C%20%D1%83%D1%82%D0%B8%D1%85%20%D0%B4%D1%80%D0%B5%D0%BC%D0%BE%D1%82%D0%BE%D1%8E%20%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D0%BD%D0%BE%D0%B9" for 127.0.0.1 at 2017-12-28 17:56:49 +0300
+Processing by QuizController#index as HTML
+  Parameters: {"question"=>"Теперь утих дремотою минутной"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("question", "answer", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["question", "Теперь утих дремотою минутной"], ["answer", "Я возмужал среди печальных бурь..."], ["created_at", "2017-12-28 14:56:49.888084"], ["updated_at", "2017-12-28 14:56:49.888084"]]
+  [1m[35m (75.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering quiz/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered quiz/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1011ms (Views: 23.8ms | ActiveRecord: 75.8ms)
+
+
