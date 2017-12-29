@@ -2,13 +2,13 @@
 lock "~> 3.10.1"
 
 set :application, "pushkin"
-set :repo_url, "git@github.com:Vadser/pushkin-contest-bot..git"
+set :repo_url, "https://github.com/Vadser/pushkin-contest-bot..git"
 set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
+set :deploy_to, "/var/www/pushkin"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -33,7 +33,7 @@ set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh
 # set :local_user, -> { `git config user.name`.chomp }
 
 # Default value for keep_releases is 5
-# set :keep_releases, 5
+#set :keep_releases, 5
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 set :ssh_options, verify_host_key: :secure
