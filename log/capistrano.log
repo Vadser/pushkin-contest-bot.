@@ -335,3 +335,21 @@ and the repository exists.
 
 Please make sure you have the correct access rights
 and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-29 20:48:11 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [86b1b214] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [86b1b214] Command: /usr/bin/env mkdir -p /tmp
+  INFO [86b1b214] Finished in 0.734 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-vadim.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-vadim.sh 100.0%
+  INFO [318aded7] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh as deployer@92.53.91.84
+ DEBUG [318aded7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh
+  INFO [318aded7] Finished in 0.176 seconds with exit status 0 (successful).
+  INFO [ebad92c9] Running /usr/bin/env git ls-remote git@github.com:Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [ebad92c9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git ls-remote git@github.com:Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [ebad92c9] 	Permission denied (publickey).
+ DEBUG [ebad92c9] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
