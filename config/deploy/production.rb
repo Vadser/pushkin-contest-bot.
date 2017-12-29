@@ -53,8 +53,8 @@
  user: "deployer",
  roles: %w{web app},
  ssh_options: {
-  user: "user_name", # overrides user setting above
-   keys: %w(/home/vadim/.ssh/id_rsa),
+  user: "deployer", # overrides user setting above
+   keys: %w(/home/deployer/.ssh/id_rsa),
   forward_agent: false,
   auth_methods: %w(publickey password),
  password: "vadser"
