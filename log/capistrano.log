@@ -432,3 +432,157 @@ and the repository exists.
  DEBUG [2ac947a4] 	cannot create directory '/var/www/pushkin'
  DEBUG [2ac947a4] 	: Permission denied
  DEBUG [2ac947a4] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-29 21:22:11 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [693f79ef] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [693f79ef] Command: /usr/bin/env mkdir -p /tmp
+  INFO [693f79ef] Finished in 0.747 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-vadim.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-vadim.sh 100.0%
+  INFO [f17527e5] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh as deployer@92.53.91.84
+ DEBUG [f17527e5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh
+  INFO [f17527e5] Finished in 0.136 seconds with exit status 0 (successful).
+  INFO [6be267b7] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [6be267b7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [6be267b7] 	cfdd15a6a54d4b689ad056810f03879d97a1c28d	HEAD
+  INFO [6be267b7] Finished in 0.933 seconds with exit status 0 (successful).
+  INFO [ce2f8af8] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [ce2f8af8] Command: /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases
+ DEBUG [ce2f8af8] 	mkdir: 
+ DEBUG [ce2f8af8] 	cannot create directory '/var/www/pushkin'
+ DEBUG [ce2f8af8] 	: Permission denied
+ DEBUG [ce2f8af8] 	
+ DEBUG [ce2f8af8] 	mkdir: 
+ DEBUG [ce2f8af8] 	cannot create directory '/var/www/pushkin'
+ DEBUG [ce2f8af8] 	: Permission denied
+ DEBUG [ce2f8af8] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-29 21:26:03 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bafff120] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [bafff120] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bafff120] Finished in 0.767 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-vadim.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-vadim.sh 100.0%
+  INFO [62225832] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh as deployer@92.53.91.84
+ DEBUG [62225832] Command: /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh
+  INFO [62225832] Finished in 0.165 seconds with exit status 0 (successful).
+  INFO [222a98b6] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [222a98b6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [222a98b6] 	cfdd15a6a54d4b689ad056810f03879d97a1c28d	HEAD
+  INFO [222a98b6] Finished in 0.938 seconds with exit status 0 (successful).
+  INFO [e5a0162a] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [e5a0162a] Command: /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases
+ DEBUG [e5a0162a] 	mkdir: 
+ DEBUG [e5a0162a] 	cannot create directory '/var/www/pushkin'
+ DEBUG [e5a0162a] 	: Permission denied
+ DEBUG [e5a0162a] 	
+ DEBUG [e5a0162a] 	mkdir: 
+ DEBUG [e5a0162a] 	cannot create directory '/var/www/pushkin'
+ DEBUG [e5a0162a] 	: Permission denied
+ DEBUG [e5a0162a] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-29 21:31:16 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fe0b0d78] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [fe0b0d78] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fe0b0d78] Finished in 0.753 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-vadim.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-vadim.sh 100.0%
+  INFO [0ab120d7] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh as deployer@92.53.91.84
+ DEBUG [0ab120d7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh
+  INFO [0ab120d7] Finished in 0.161 seconds with exit status 0 (successful).
+  INFO [2ad7d223] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [2ad7d223] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [2ad7d223] 	cfdd15a6a54d4b689ad056810f03879d97a1c28d	HEAD
+  INFO [2ad7d223] Finished in 0.937 seconds with exit status 0 (successful).
+  INFO [417a8628] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [417a8628] Command: /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases
+ DEBUG [417a8628] 	mkdir: 
+ DEBUG [417a8628] 	cannot create directory '/var/www/pushkin'
+ DEBUG [417a8628] 	: Permission denied
+ DEBUG [417a8628] 	
+ DEBUG [417a8628] 	mkdir: 
+ DEBUG [417a8628] 	cannot create directory '/var/www/pushkin'
+ DEBUG [417a8628] 	: Permission denied
+ DEBUG [417a8628] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-29 21:33:44 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [aae989ac] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [aae989ac] Command: /usr/bin/env mkdir -p /tmp
+  INFO [aae989ac] Finished in 0.775 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-vadim.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-vadim.sh 100.0%
+  INFO [96ce7f91] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh as deployer@92.53.91.84
+ DEBUG [96ce7f91] Command: /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh
+  INFO [96ce7f91] Finished in 0.158 seconds with exit status 0 (successful).
+  INFO [4c49a260] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [4c49a260] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [4c49a260] 	cfdd15a6a54d4b689ad056810f03879d97a1c28d	HEAD
+  INFO [4c49a260] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [99455341] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [99455341] Command: /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases
+  INFO [99455341] Finished in 0.148 seconds with exit status 0 (successful).
+ DEBUG [07d6e268] Running [ -f /var/www/pushkin/current/REVISION ] as deployer@92.53.91.84
+ DEBUG [07d6e268] Command: [ -f /var/www/pushkin/current/REVISION ]
+ DEBUG [07d6e268] Finished in 0.151 seconds with exit status 1 (failed).
+ DEBUG [967dd9b0] Running [ -f /var/www/pushkin/repo/HEAD ] as deployer@92.53.91.84
+ DEBUG [967dd9b0] Command: [ -f /var/www/pushkin/repo/HEAD ]
+ DEBUG [967dd9b0] Finished in 0.162 seconds with exit status 1 (failed).
+ DEBUG [5c6763df] Running if test ! -d /var/www/pushkin; then echo "Directory does not exist '/var/www/pushkin'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [5c6763df] Command: if test ! -d /var/www/pushkin; then echo "Directory does not exist '/var/www/pushkin'" 1>&2; false; fi
+ DEBUG [5c6763df] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [7f04d3f7] Running /usr/bin/env git clone --mirror https://github.com/Vadser/pushkin-contest-bot..git /var/www/pushkin/repo as deployer@92.53.91.84
+ DEBUG [7f04d3f7] Command: cd /var/www/pushkin && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git clone --mirror https://github.com/Vadser/pushkin-contest-bot..git /var/www/pushkin/repo )
+ DEBUG [7f04d3f7] 	Cloning into bare repository '/var/www/pushkin/repo'...
+  INFO [7f04d3f7] Finished in 1.483 seconds with exit status 0 (successful).
+ DEBUG [a7bb102e] Running if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [a7bb102e] Command: if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi
+ DEBUG [a7bb102e] Finished in 0.283 seconds with exit status 0 (successful).
+  INFO [39aa5e13] Running /usr/bin/env git remote set-url origin https://github.com/Vadser/pushkin-contest-bot..git as deployer@92.53.91.84
+ DEBUG [39aa5e13] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git remote set-url origin https://github.com/Vadser/pushkin-contest-bot..git )
+  INFO [39aa5e13] Finished in 0.262 seconds with exit status 0 (successful).
+  INFO [928d3a3e] Running /usr/bin/env git remote update --prune as deployer@92.53.91.84
+ DEBUG [928d3a3e] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [928d3a3e] 	Fetching origin
+  INFO [928d3a3e] Finished in 1.095 seconds with exit status 0 (successful).
+ DEBUG [0e0a3436] Running if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [0e0a3436] Command: if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi
+ DEBUG [0e0a3436] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [cbcbdc71] Running /usr/bin/env mkdir -p /var/www/pushkin/releases/20171229183346 as deployer@92.53.91.84
+ DEBUG [cbcbdc71] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env mkdir -p /var/www/pushkin/releases/20171229183346 )
+  INFO [cbcbdc71] Finished in 0.291 seconds with exit status 0 (successful).
+  INFO [4355a195] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/pushkin/releases/20171229183346 as deployer@92.53.91.84
+ DEBUG [4355a195] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/pushkin/releases/20171229183346 )
+  INFO [4355a195] Finished in 0.166 seconds with exit status 0 (successful).
+ DEBUG [2f5b9430] Running if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [2f5b9430] Command: if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi
+ DEBUG [2f5b9430] Finished in 0.271 seconds with exit status 0 (successful).
+ DEBUG [cc78ba2b] Running /usr/bin/env git rev-list --max-count=1 master as deployer@92.53.91.84
+ DEBUG [cc78ba2b] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [cc78ba2b] 	cfdd15a6a54d4b689ad056810f03879d97a1c28d
+ DEBUG [cc78ba2b] Finished in 0.290 seconds with exit status 0 (successful).
+ DEBUG [3c391c98] Running if test ! -d /var/www/pushkin/releases/20171229183346; then echo "Directory does not exist '/var/www/pushkin/releases/20171229183346'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [3c391c98] Command: if test ! -d /var/www/pushkin/releases/20171229183346; then echo "Directory does not exist '/var/www/pushkin/releases/20171229183346'" 1>&2; false; fi
+ DEBUG [3c391c98] Finished in 0.290 seconds with exit status 0 (successful).
+  INFO [a4f12fc1] Running /usr/bin/env echo "cfdd15a6a54d4b689ad056810f03879d97a1c28d" >> REVISION as deployer@92.53.91.84
+ DEBUG [a4f12fc1] Command: cd /var/www/pushkin/releases/20171229183346 && /usr/bin/env echo "cfdd15a6a54d4b689ad056810f03879d97a1c28d" >> REVISION
+  INFO [a4f12fc1] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO [06c7382f] Running /usr/bin/env ln -s /var/www/pushkin/releases/20171229183346 /var/www/pushkin/releases/current as deployer@92.53.91.84
+ DEBUG [06c7382f] Command: /usr/bin/env ln -s /var/www/pushkin/releases/20171229183346 /var/www/pushkin/releases/current
+  INFO [06c7382f] Finished in 0.282 seconds with exit status 0 (successful).
+  INFO [2f136271] Running /usr/bin/env mv /var/www/pushkin/releases/current /var/www/pushkin as deployer@92.53.91.84
+ DEBUG [2f136271] Command: /usr/bin/env mv /var/www/pushkin/releases/current /var/www/pushkin
+  INFO [2f136271] Finished in 0.294 seconds with exit status 0 (successful).
+ DEBUG [023ae4c3] Running /usr/bin/env ls -x /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [023ae4c3] Command: /usr/bin/env ls -x /var/www/pushkin/releases
+ DEBUG [023ae4c3] 	20171229183346
+ DEBUG [023ae4c3] Finished in 0.157 seconds with exit status 0 (successful).
+ DEBUG [8374fb36] Running if test ! -d /var/www/pushkin/releases; then echo "Directory does not exist '/var/www/pushkin/releases'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [8374fb36] Command: if test ! -d /var/www/pushkin/releases; then echo "Directory does not exist '/var/www/pushkin/releases'" 1>&2; false; fi
+ DEBUG [8374fb36] Finished in 0.160 seconds with exit status 0 (successful).
+  INFO [f62ed8eb] Running /usr/bin/env echo "Branch master (at cfdd15a6a54d4b689ad056810f03879d97a1c28d) deployed as release 20171229183346 by vadim" >> /var/www/pushkin/revisions.log as deployer@92.53.91.84
+ DEBUG [f62ed8eb] Command: cd /var/www/pushkin/releases && /usr/bin/env echo "Branch master (at cfdd15a6a54d4b689ad056810f03879d97a1c28d) deployed as release 20171229183346 by vadim" >> /var/www/pushkin/revisions.log
+  INFO [f62ed8eb] Finished in 0.154 seconds with exit status 0 (successful).
