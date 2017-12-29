@@ -1,8 +1,9 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.1"
-set :application, "pushkin"
-set :repo_url, "github.com:Vadser/pushkin-contest-bot..git"
 
+set :application, "pushkin"
+set :repo_url, "git@github.com:Vadser/pushkin-contest-bot..git"
+set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
