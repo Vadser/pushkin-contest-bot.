@@ -8,7 +8,7 @@ threads 1, 6
 workers 1
 
 app_dir = File.expand_path("../..", __FILE__)
-shared_dir = "#{app_dir}/shared/tmp"
+shared_dir = "#{app_dir}/shared"
 
 
 # Default to production
