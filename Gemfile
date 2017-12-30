@@ -57,7 +57,7 @@ gem 'mechanize'
 group :production do
   gem 'unicorn'
 end
-
+gem 'capistrano-linked-files'
 group :development do
     gem 'capistrano',         require: false
     gem 'capistrano-rvm',     require: false
