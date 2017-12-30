@@ -7660,3 +7660,278 @@ and the repository exists.
   INFO [f23229d0] Running /usr/bin/env echo "Branch master (at 20189f655d9b517b7f3c7eb60bb10f950e4a3ead) deployed as release 20171230124719 by vadim" >> /var/www/pushkin/revisions.log as deployer@92.53.91.84
  DEBUG [f23229d0] Command: cd /var/www/pushkin/releases && /usr/bin/env echo "Branch master (at 20189f655d9b517b7f3c7eb60bb10f950e4a3ead) deployed as release 20171230124719 by vadim" >> /var/www/pushkin/revisions.log
   INFO [f23229d0] Finished in 0.138 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 16:56:57 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7b2fa36a] Running [ -d ~/.rvm ] as deployer@92.53.91.84
+ DEBUG [7b2fa36a] Command: [ -d ~/.rvm ]
+ DEBUG [7b2fa36a] Finished in 0.791 seconds with exit status 0 (successful).
+ DEBUG [e620e502] Running ~/.rvm/bin/rvm version as deployer@92.53.91.84
+ DEBUG [e620e502] Command: ~/.rvm/bin/rvm version
+ DEBUG [e620e502] 	rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [e620e502] Finished in 0.325 seconds with exit status 0 (successful).
+ DEBUG [b749c980] Running ~/.rvm/bin/rvm current as deployer@92.53.91.84
+ DEBUG [b749c980] Command: ~/.rvm/bin/rvm current
+ DEBUG [b749c980] 	ruby-2.4.1
+ DEBUG [b749c980] Finished in 0.310 seconds with exit status 0 (successful).
+ DEBUG [e57e2946] Running ~/.rvm/bin/rvm 2.4.1 do ruby --version as deployer@92.53.91.84
+ DEBUG [e57e2946] Command: ~/.rvm/bin/rvm 2.4.1 do ruby --version
+ DEBUG [e57e2946] 	ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+ DEBUG [e57e2946] Finished in 0.425 seconds with exit status 0 (successful).
+  INFO [8f5e4064] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [8f5e4064] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8f5e4064] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-vadim.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-vadim.sh 100.0%
+  INFO [767cf1c9] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh as deployer@92.53.91.84
+ DEBUG [767cf1c9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh
+  INFO [767cf1c9] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [d4d4545d] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [d4d4545d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [d4d4545d] 	1d90a529a438a2ed6b975ae6cd12bfa38a396958	HEAD
+  INFO [d4d4545d] Finished in 0.959 seconds with exit status 0 (successful).
+  INFO [e9984bd8] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [e9984bd8] Command: /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases
+  INFO [e9984bd8] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [1bf4c573] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets as deployer@92.53.91.84
+ DEBUG [1bf4c573] Command: /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets
+  INFO [1bf4c573] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [3c792be5] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/config as deployer@92.53.91.84
+ DEBUG [3c792be5] Command: /usr/bin/env mkdir -p /var/www/pushkin/shared/config
+  INFO [3c792be5] Finished in 0.150 seconds with exit status 0 (successful).
+ DEBUG [69748a5b] Running [ -f /var/www/pushkin/shared/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [69748a5b] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
+ DEBUG [69748a5b] Finished in 0.150 seconds with exit status 0 (successful).
+ DEBUG [145bad5f] Running [ -f /var/www/pushkin/shared/config/secrets.yml ] as deployer@92.53.91.84
+ DEBUG [145bad5f] Command: [ -f /var/www/pushkin/shared/config/secrets.yml ]
+ DEBUG [145bad5f] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [b5c442a6] Running [ -f /var/www/pushkin/current/REVISION ] as deployer@92.53.91.84
+ DEBUG [b5c442a6] Command: [ -f /var/www/pushkin/current/REVISION ]
+ DEBUG [b5c442a6] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [269a621f] Running /usr/bin/env cat /var/www/pushkin/current/REVISION 2>/dev/null as deployer@92.53.91.84
+ DEBUG [269a621f] Command: /usr/bin/env cat /var/www/pushkin/current/REVISION 2>/dev/null
+ DEBUG [269a621f] 	20189f655d9b517b7f3c7eb60bb10f950e4a3ead
+ DEBUG [269a621f] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [798e9b66] Running [ -f /var/www/pushkin/repo/HEAD ] as deployer@92.53.91.84
+ DEBUG [798e9b66] Command: [ -f /var/www/pushkin/repo/HEAD ]
+ DEBUG [798e9b66] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/pushkin/repo
+ DEBUG [8174cdc3] Running if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [8174cdc3] Command: if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi
+ DEBUG [8174cdc3] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [bf05b7f2] Running /usr/bin/env git remote set-url origin https://github.com/Vadser/pushkin-contest-bot..git as deployer@92.53.91.84
+ DEBUG [bf05b7f2] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git remote set-url origin https://github.com/Vadser/pushkin-contest-bot..git )
+  INFO [bf05b7f2] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [8e1090a1] Running /usr/bin/env git remote update --prune as deployer@92.53.91.84
+ DEBUG [8e1090a1] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8e1090a1] 	Fetching origin
+ DEBUG [8e1090a1] 	From https://github.com/Vadser/pushkin-contest-bot.
+   20189f6..1d90a52  master     -> master
+  INFO [8e1090a1] Finished in 1.530 seconds with exit status 0 (successful).
+ DEBUG [45af9107] Running if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [45af9107] Command: if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi
+ DEBUG [45af9107] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [86ac43df] Running /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702 as deployer@92.53.91.84
+ DEBUG [86ac43df] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702 )
+  INFO [86ac43df] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [ec60db84] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/pushkin/releases/20171230135702 as deployer@92.53.91.84
+ DEBUG [ec60db84] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/pushkin/releases/20171230135702 )
+  INFO [ec60db84] Finished in 0.163 seconds with exit status 0 (successful).
+ DEBUG [d76bf130] Running if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [d76bf130] Command: if test ! -d /var/www/pushkin/repo; then echo "Directory does not exist '/var/www/pushkin/repo'" 1>&2; false; fi
+ DEBUG [d76bf130] Finished in 0.156 seconds with exit status 0 (successful).
+ DEBUG [f0b12f10] Running /usr/bin/env git rev-list --max-count=1 master as deployer@92.53.91.84
+ DEBUG [f0b12f10] Command: cd /var/www/pushkin/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f0b12f10] 	1d90a529a438a2ed6b975ae6cd12bfa38a396958
+ DEBUG [f0b12f10] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [00842a53] Running if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [00842a53] Command: if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi
+ DEBUG [00842a53] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [37e7c8f8] Running /usr/bin/env echo "1d90a529a438a2ed6b975ae6cd12bfa38a396958" >> REVISION as deployer@92.53.91.84
+ DEBUG [37e7c8f8] Command: cd /var/www/pushkin/releases/20171230135702 && /usr/bin/env echo "1d90a529a438a2ed6b975ae6cd12bfa38a396958" >> REVISION
+  INFO [37e7c8f8] Finished in 0.158 seconds with exit status 0 (successful).
+  INFO [2aa6bed1] Running /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702/config as deployer@92.53.91.84
+ DEBUG [2aa6bed1] Command: /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702/config
+  INFO [2aa6bed1] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [ba29b9dc] Running [ -L /var/www/pushkin/releases/20171230135702/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [ba29b9dc] Command: [ -L /var/www/pushkin/releases/20171230135702/config/database.yml ]
+ DEBUG [ba29b9dc] Finished in 0.147 seconds with exit status 1 (failed).
+ DEBUG [13e335b8] Running [ -f /var/www/pushkin/releases/20171230135702/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [13e335b8] Command: [ -f /var/www/pushkin/releases/20171230135702/config/database.yml ]
+ DEBUG [13e335b8] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [62ab2c9b] Running /usr/bin/env rm /var/www/pushkin/releases/20171230135702/config/database.yml as deployer@92.53.91.84
+ DEBUG [62ab2c9b] Command: /usr/bin/env rm /var/www/pushkin/releases/20171230135702/config/database.yml
+  INFO [62ab2c9b] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [7c487762] Running /usr/bin/env ln -s /var/www/pushkin/shared/config/database.yml /var/www/pushkin/releases/20171230135702/config/database.yml as deployer@92.53.91.84
+ DEBUG [7c487762] Command: /usr/bin/env ln -s /var/www/pushkin/shared/config/database.yml /var/www/pushkin/releases/20171230135702/config/database.yml
+  INFO [7c487762] Finished in 0.160 seconds with exit status 0 (successful).
+ DEBUG [93e32a3b] Running [ -L /var/www/pushkin/releases/20171230135702/config/secrets.yml ] as deployer@92.53.91.84
+ DEBUG [93e32a3b] Command: [ -L /var/www/pushkin/releases/20171230135702/config/secrets.yml ]
+ DEBUG [93e32a3b] Finished in 0.148 seconds with exit status 1 (failed).
+ DEBUG [0e23e460] Running [ -f /var/www/pushkin/releases/20171230135702/config/secrets.yml ] as deployer@92.53.91.84
+ DEBUG [0e23e460] Command: [ -f /var/www/pushkin/releases/20171230135702/config/secrets.yml ]
+ DEBUG [0e23e460] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [c5071989] Running /usr/bin/env rm /var/www/pushkin/releases/20171230135702/config/secrets.yml as deployer@92.53.91.84
+ DEBUG [c5071989] Command: /usr/bin/env rm /var/www/pushkin/releases/20171230135702/config/secrets.yml
+  INFO [c5071989] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [0a1ba4bd] Running /usr/bin/env ln -s /var/www/pushkin/shared/config/secrets.yml /var/www/pushkin/releases/20171230135702/config/secrets.yml as deployer@92.53.91.84
+ DEBUG [0a1ba4bd] Command: /usr/bin/env ln -s /var/www/pushkin/shared/config/secrets.yml /var/www/pushkin/releases/20171230135702/config/secrets.yml
+  INFO [0a1ba4bd] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [65adef97] Running /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702 /var/www/pushkin/releases/20171230135702/tmp /var/www/pushkin/releases/20171230135702/public as deployer@92.53.91.84
+ DEBUG [65adef97] Command: /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702 /var/www/pushkin/releases/20171230135702/tmp /var/www/pushkin/releases/20171230135702/public
+  INFO [65adef97] Finished in 0.148 seconds with exit status 0 (successful).
+ DEBUG [8eeffa03] Running [ -L /var/www/pushkin/releases/20171230135702/log ] as deployer@92.53.91.84
+ DEBUG [8eeffa03] Command: [ -L /var/www/pushkin/releases/20171230135702/log ]
+ DEBUG [8eeffa03] Finished in 0.147 seconds with exit status 1 (failed).
+ DEBUG [52bbb697] Running [ -d /var/www/pushkin/releases/20171230135702/log ] as deployer@92.53.91.84
+ DEBUG [52bbb697] Command: [ -d /var/www/pushkin/releases/20171230135702/log ]
+ DEBUG [52bbb697] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [f88e988c] Running /usr/bin/env rm -rf /var/www/pushkin/releases/20171230135702/log as deployer@92.53.91.84
+ DEBUG [f88e988c] Command: /usr/bin/env rm -rf /var/www/pushkin/releases/20171230135702/log
+  INFO [f88e988c] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [9b4487c7] Running /usr/bin/env ln -s /var/www/pushkin/shared/log /var/www/pushkin/releases/20171230135702/log as deployer@92.53.91.84
+ DEBUG [9b4487c7] Command: /usr/bin/env ln -s /var/www/pushkin/shared/log /var/www/pushkin/releases/20171230135702/log
+  INFO [9b4487c7] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [3a14055e] Running [ -L /var/www/pushkin/releases/20171230135702/tmp/pids ] as deployer@92.53.91.84
+ DEBUG [3a14055e] Command: [ -L /var/www/pushkin/releases/20171230135702/tmp/pids ]
+ DEBUG [3a14055e] Finished in 0.150 seconds with exit status 1 (failed).
+ DEBUG [1d50f059] Running [ -d /var/www/pushkin/releases/20171230135702/tmp/pids ] as deployer@92.53.91.84
+ DEBUG [1d50f059] Command: [ -d /var/www/pushkin/releases/20171230135702/tmp/pids ]
+ DEBUG [1d50f059] Finished in 0.148 seconds with exit status 1 (failed).
+  INFO [07106c2b] Running /usr/bin/env ln -s /var/www/pushkin/shared/tmp/pids /var/www/pushkin/releases/20171230135702/tmp/pids as deployer@92.53.91.84
+ DEBUG [07106c2b] Command: /usr/bin/env ln -s /var/www/pushkin/shared/tmp/pids /var/www/pushkin/releases/20171230135702/tmp/pids
+  INFO [07106c2b] Finished in 0.151 seconds with exit status 0 (successful).
+ DEBUG [bf340f7d] Running [ -L /var/www/pushkin/releases/20171230135702/tmp/cache ] as deployer@92.53.91.84
+ DEBUG [bf340f7d] Command: [ -L /var/www/pushkin/releases/20171230135702/tmp/cache ]
+ DEBUG [bf340f7d] Finished in 0.148 seconds with exit status 1 (failed).
+ DEBUG [775a7100] Running [ -d /var/www/pushkin/releases/20171230135702/tmp/cache ] as deployer@92.53.91.84
+ DEBUG [775a7100] Command: [ -d /var/www/pushkin/releases/20171230135702/tmp/cache ]
+ DEBUG [775a7100] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [4c226b8a] Running /usr/bin/env rm -rf /var/www/pushkin/releases/20171230135702/tmp/cache as deployer@92.53.91.84
+ DEBUG [4c226b8a] Command: /usr/bin/env rm -rf /var/www/pushkin/releases/20171230135702/tmp/cache
+  INFO [4c226b8a] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [ed54fb2c] Running /usr/bin/env ln -s /var/www/pushkin/shared/tmp/cache /var/www/pushkin/releases/20171230135702/tmp/cache as deployer@92.53.91.84
+ DEBUG [ed54fb2c] Command: /usr/bin/env ln -s /var/www/pushkin/shared/tmp/cache /var/www/pushkin/releases/20171230135702/tmp/cache
+  INFO [ed54fb2c] Finished in 0.148 seconds with exit status 0 (successful).
+ DEBUG [cf1b65aa] Running [ -L /var/www/pushkin/releases/20171230135702/tmp/sockets ] as deployer@92.53.91.84
+ DEBUG [cf1b65aa] Command: [ -L /var/www/pushkin/releases/20171230135702/tmp/sockets ]
+ DEBUG [cf1b65aa] Finished in 0.153 seconds with exit status 1 (failed).
+ DEBUG [287564bf] Running [ -d /var/www/pushkin/releases/20171230135702/tmp/sockets ] as deployer@92.53.91.84
+ DEBUG [287564bf] Command: [ -d /var/www/pushkin/releases/20171230135702/tmp/sockets ]
+ DEBUG [287564bf] Finished in 0.153 seconds with exit status 1 (failed).
+  INFO [8825d7ed] Running /usr/bin/env ln -s /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/releases/20171230135702/tmp/sockets as deployer@92.53.91.84
+ DEBUG [8825d7ed] Command: /usr/bin/env ln -s /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/releases/20171230135702/tmp/sockets
+  INFO [8825d7ed] Finished in 0.151 seconds with exit status 0 (successful).
+ DEBUG [0739a630] Running [ -L /var/www/pushkin/releases/20171230135702/public/system ] as deployer@92.53.91.84
+ DEBUG [0739a630] Command: [ -L /var/www/pushkin/releases/20171230135702/public/system ]
+ DEBUG [0739a630] Finished in 0.150 seconds with exit status 1 (failed).
+ DEBUG [bb75e26e] Running [ -d /var/www/pushkin/releases/20171230135702/public/system ] as deployer@92.53.91.84
+ DEBUG [bb75e26e] Command: [ -d /var/www/pushkin/releases/20171230135702/public/system ]
+ DEBUG [bb75e26e] Finished in 0.154 seconds with exit status 1 (failed).
+  INFO [6f9390e1] Running /usr/bin/env ln -s /var/www/pushkin/shared/public/system /var/www/pushkin/releases/20171230135702/public/system as deployer@92.53.91.84
+ DEBUG [6f9390e1] Command: /usr/bin/env ln -s /var/www/pushkin/shared/public/system /var/www/pushkin/releases/20171230135702/public/system
+  INFO [6f9390e1] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [82174e40] Running [ -L /var/www/pushkin/releases/20171230135702/public/assets ] as deployer@92.53.91.84
+ DEBUG [82174e40] Command: [ -L /var/www/pushkin/releases/20171230135702/public/assets ]
+ DEBUG [82174e40] Finished in 0.158 seconds with exit status 1 (failed).
+ DEBUG [82ca6965] Running [ -d /var/www/pushkin/releases/20171230135702/public/assets ] as deployer@92.53.91.84
+ DEBUG [82ca6965] Command: [ -d /var/www/pushkin/releases/20171230135702/public/assets ]
+ DEBUG [82ca6965] Finished in 0.158 seconds with exit status 1 (failed).
+  INFO [1f5a8524] Running /usr/bin/env ln -s /var/www/pushkin/shared/public/assets /var/www/pushkin/releases/20171230135702/public/assets as deployer@92.53.91.84
+ DEBUG [1f5a8524] Command: /usr/bin/env ln -s /var/www/pushkin/shared/public/assets /var/www/pushkin/releases/20171230135702/public/assets
+  INFO [1f5a8524] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [8ce9c6c9] Running if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [8ce9c6c9] Command: if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi
+ DEBUG [8ce9c6c9] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [99672a1c] Running ~/.rvm/bin/rvm 2.4.1 do bundle check --path /var/www/pushkin/shared/bundle as deployer@92.53.91.84
+ DEBUG [99672a1c] Command: cd /var/www/pushkin/releases/20171230135702 && ~/.rvm/bin/rvm 2.4.1 do bundle check --path /var/www/pushkin/shared/bundle
+ DEBUG [99672a1c] 	The following gems are missing
+ DEBUG [99672a1c] 	 * public_suffix (3.0.1)
+ DEBUG [99672a1c] 	 * addressable (2.5.2)
+ DEBUG [99672a1c] 	 * bindex (0.5.0)
+ DEBUG [99672a1c] 	 * byebug (9.1.0)
+ DEBUG [99672a1c] 	 * capistrano-bundler (1.3.0)
+ DEBUG [99672a1c] 	 * capistrano-db-tasks (0.6)
+ DEBUG [99672a1c] 	 * capistrano-rails (1.3.1)
+ DEBUG [99672a1c] 	 * capistrano-rvm (0.1.2)
+ DEBUG [99672a1c] 	 * connection_pool (2.2.1)
+ DEBUG [99672a1c] 	 * rack-protection (2.0.0)
+ DEBUG [99672a1c] 	 * redis (4.0.1)
+ DEBUG [99672a1c] 	 * sidekiq (5.0.5)
+ DEBUG [99672a1c] 	 * capistrano-sidekiq (0.20.0)
+ DEBUG [99672a1c] 	 * capistrano3-puma (3.1.1)
+ DEBUG [99672a1c] 	 * xpath (2.1.0)
+ DEBUG [99672a1c] 	 * capybara (2.16.1)
+ DEBUG [99672a1c] 	 * childprocess (0.8.0)
+ DEBUG [99672a1c] 	 * ruby_dep (1.5.0)
+ DEBUG [99672a1c] 	 * listen (3.1.5)
+ DEBUG [99672a1c] 	 * rubyzip (1.2.1)
+ DEBUG [99672a1c] 	 * selenium-webdriver (3.8.0)
+ DEBUG [99672a1c] 	 * spring (2.0.2)
+ DEBUG [99672a1c] 	 * spring-watcher-listen (2.0.1)
+ DEBUG [99672a1c] 	 * web-console (3.5.1)
+ DEBUG [99672a1c] 	Install missing gems with `bundle install`
+ DEBUG [99672a1c] Finished in 0.741 seconds with exit status 1 (failed).
+  INFO [f50e6cea] Running ~/.rvm/bin/rvm 2.4.1 do bundle install --path /var/www/pushkin/shared/bundle --without development test --deployment --quiet as deployer@92.53.91.84
+ DEBUG [f50e6cea] Command: cd /var/www/pushkin/releases/20171230135702 && ~/.rvm/bin/rvm 2.4.1 do bundle install --path /var/www/pushkin/shared/bundle --without development test --deployment --quiet
+  INFO [f50e6cea] Finished in 1.903 seconds with exit status 0 (successful).
+ DEBUG [a077efbe] Running if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [a077efbe] Command: if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi
+ DEBUG [a077efbe] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [303a3e53] Running ~/.rvm/bin/rvm 2.4.1 do bundle exec rake assets:precompile as deployer@92.53.91.84
+ DEBUG [303a3e53] Command: cd /var/www/pushkin/releases/20171230135702 && ( export RAILS_ENV="production" RAILS_GROUPS="" ; ~/.rvm/bin/rvm 2.4.1 do bundle exec rake assets:precompile )
+ DEBUG [303a3e53] 	yarn install v1.3.2
+ DEBUG [303a3e53] 	warning You are using Node "4.2.6" which is not supported and may encounter bugs or unexpected behavior. Yarn supports the following semver range: "^4.8.0 || ^5.7.0 || ^6.2.2 || >=8.0.0"
+ DEBUG [303a3e53] 	info No lockfile found.
+ DEBUG [303a3e53] 	[1/4] Resolving packages...
+ DEBUG [303a3e53] 	[2/4] Fetching packages...
+ DEBUG [303a3e53] 	[3/4] Linking dependencies...
+ DEBUG [303a3e53] 	[4/4] Building fresh packages...
+ DEBUG [303a3e53] 	info Lockfile not saved, no dependencies.
+ DEBUG [303a3e53] 	Done in 0.10s.
+  INFO [303a3e53] Finished in 3.455 seconds with exit status 0 (successful).
+ DEBUG [2d5f33e2] Running if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [2d5f33e2] Command: if test ! -d /var/www/pushkin/releases/20171230135702; then echo "Directory does not exist '/var/www/pushkin/releases/20171230135702'" 1>&2; false; fi
+ DEBUG [2d5f33e2] Finished in 0.149 seconds with exit status 0 (successful).
+  INFO [cad9dec8] Running /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702/assets_manifest_backup as deployer@92.53.91.84
+ DEBUG [cad9dec8] Command: cd /var/www/pushkin/releases/20171230135702 && /usr/bin/env mkdir -p /var/www/pushkin/releases/20171230135702/assets_manifest_backup
+  INFO [cad9dec8] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG [979acbe8] Running /usr/bin/env ls /var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest* as deployer@92.53.91.84
+ DEBUG [979acbe8] Command: cd /var/www/pushkin/releases/20171230135702 && /usr/bin/env ls /var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest*
+ DEBUG [979acbe8] 	/var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest-b1c67c430aec90c12b65f4268c31f20c.json
+ DEBUG [979acbe8] Finished in 0.161 seconds with exit status 0 (successful).
+ DEBUG [c00ff537] Running /usr/bin/env ls /var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest* as deployer@92.53.91.84
+ DEBUG [c00ff537] Command: cd /var/www/pushkin/releases/20171230135702 && /usr/bin/env ls /var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest*
+ DEBUG [c00ff537] 	/var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest-b1c67c430aec90c12b65f4268c31f20c.json
+ DEBUG [c00ff537] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [7a8e7e18] Running /usr/bin/env cp /var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest-b1c67c430aec90c12b65f4268c31f20c.json /var/www/pushkin/releases/20171230135702/assets_manifest_backup as deployer@92.53.91.84
+ DEBUG [7a8e7e18] Command: cd /var/www/pushkin/releases/20171230135702 && /usr/bin/env cp /var/www/pushkin/releases/20171230135702/public/assets/.sprockets-manifest-b1c67c430aec90c12b65f4268c31f20c.json /var/www/pushkin/releases/20171230135702/assets_manifest_backup
+  INFO [7a8e7e18] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [c737b2fe] Running /usr/bin/env ln -s /var/www/pushkin/releases/20171230135702 /var/www/pushkin/releases/current as deployer@92.53.91.84
+ DEBUG [c737b2fe] Command: /usr/bin/env ln -s /var/www/pushkin/releases/20171230135702 /var/www/pushkin/releases/current
+  INFO [c737b2fe] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [d4f912df] Running /usr/bin/env mv /var/www/pushkin/releases/current /var/www/pushkin as deployer@92.53.91.84
+ DEBUG [d4f912df] Command: /usr/bin/env mv /var/www/pushkin/releases/current /var/www/pushkin
+  INFO [d4f912df] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [462484b9] Running /usr/bin/env ls -x /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [462484b9] Command: /usr/bin/env ls -x /var/www/pushkin/releases
+ DEBUG [462484b9] 	20171230121351	20171230121542	20171230121838	20171230122353	20171230124719
+20171230135702
+ DEBUG [462484b9] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 92.53.91.84
+ DEBUG [3d2eff69] Running [ -d /var/www/pushkin/current ] as deployer@92.53.91.84
+ DEBUG [3d2eff69] Command: [ -d /var/www/pushkin/current ]
+ DEBUG [3d2eff69] Finished in 0.144 seconds with exit status 0 (successful).
+ DEBUG [17ff8478] Running /usr/bin/env readlink /var/www/pushkin/current as deployer@92.53.91.84
+ DEBUG [17ff8478] Command: /usr/bin/env readlink /var/www/pushkin/current
+ DEBUG [17ff8478] 	/var/www/pushkin/releases/20171230135702
+ DEBUG [17ff8478] Finished in 0.151 seconds with exit status 0 (successful).
+  INFO [7e2d83d7] Running /usr/bin/env rm -rf /var/www/pushkin/releases/20171230121351 as deployer@92.53.91.84
+ DEBUG [7e2d83d7] Command: /usr/bin/env rm -rf /var/www/pushkin/releases/20171230121351
+  INFO [7e2d83d7] Finished in 0.155 seconds with exit status 0 (successful).
+ DEBUG [91e25a9a] Running if test ! -d /var/www/pushkin/releases; then echo "Directory does not exist '/var/www/pushkin/releases'" 1>&2; false; fi as deployer@92.53.91.84
+ DEBUG [91e25a9a] Command: if test ! -d /var/www/pushkin/releases; then echo "Directory does not exist '/var/www/pushkin/releases'" 1>&2; false; fi
+ DEBUG [91e25a9a] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [6652a252] Running /usr/bin/env echo "Branch master (at 1d90a529a438a2ed6b975ae6cd12bfa38a396958) deployed as release 20171230135702 by vadim" >> /var/www/pushkin/revisions.log as deployer@92.53.91.84
+ DEBUG [6652a252] Command: cd /var/www/pushkin/releases && /usr/bin/env echo "Branch master (at 1d90a529a438a2ed6b975ae6cd12bfa38a396958) deployed as release 20171230135702 by vadim" >> /var/www/pushkin/revisions.log
+  INFO [6652a252] Finished in 0.150 seconds with exit status 0 (successful).
