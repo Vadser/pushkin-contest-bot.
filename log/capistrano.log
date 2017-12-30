@@ -724,3 +724,63 @@ and the repository exists.
  DEBUG [48a21730] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
  DEBUG [48a21730] Finished in 0.154 seconds with exit status 1 (failed).
  ERROR linked file /var/www/pushkin/shared/config/database.yml does not exist on 92.53.91.84
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 11:13:30 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [145f4f5e] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [145f4f5e] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /tmp )
+  INFO [145f4f5e] Finished in 0.755 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 100.0%
+  INFO [8b8db079] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh as deployer@92.53.91.84
+ DEBUG [8b8db079] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh )
+  INFO [8b8db079] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO [76b70b5a] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [76b70b5a] Command: ( export PATH="/opt/ruby/bin:$PATH" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-Vadser.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [76b70b5a] 	c8b12b675e697b2e64bf0e259068e117a9e66044
+ DEBUG [76b70b5a] 		HEAD
+  INFO [76b70b5a] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [0bb4dba3] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [0bb4dba3] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases )
+  INFO [0bb4dba3] Finished in 0.159 seconds with exit status 0 (successful).
+  INFO [f308a325] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system as deployer@92.53.91.84
+ DEBUG [f308a325] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system )
+  INFO [f308a325] Finished in 0.157 seconds with exit status 0 (successful).
+  INFO [3eeb61aa] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/config as deployer@92.53.91.84
+ DEBUG [3eeb61aa] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/config )
+  INFO [3eeb61aa] Finished in 0.187 seconds with exit status 0 (successful).
+ DEBUG [181e06ee] Running [ -f /var/www/pushkin/shared/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [181e06ee] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
+ DEBUG [181e06ee] Finished in 0.159 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/pushkin/shared/config/database.yml does not exist on 92.53.91.84
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 11:18:30 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b393a657] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [b393a657] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /tmp )
+  INFO [b393a657] Finished in 1.529 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 100.0%
+  INFO [bf9ab39d] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh as deployer@92.53.91.84
+ DEBUG [bf9ab39d] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh )
+  INFO [bf9ab39d] Finished in 0.198 seconds with exit status 0 (successful).
+  INFO [7df94f09] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [7df94f09] Command: ( export PATH="/opt/ruby/bin:$PATH" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-Vadser.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [7df94f09] 	c8b12b675e697b2e64bf0e259068e117a9e66044
+ DEBUG [7df94f09] 		
+ DEBUG [7df94f09] 	HEAD
+ DEBUG [7df94f09] 	
+  INFO [7df94f09] Finished in 0.941 seconds with exit status 0 (successful).
+  INFO [f9d1a8bb] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [f9d1a8bb] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases )
+  INFO [f9d1a8bb] Finished in 0.163 seconds with exit status 0 (successful).
+  INFO [eb46e73f] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system as deployer@92.53.91.84
+ DEBUG [eb46e73f] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system )
+  INFO [eb46e73f] Finished in 0.171 seconds with exit status 0 (successful).
+  INFO [e012a694] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/config as deployer@92.53.91.84
+ DEBUG [e012a694] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/config )
+  INFO [e012a694] Finished in 0.160 seconds with exit status 0 (successful).
+ DEBUG [ca30b461] Running [ -f /var/www/pushkin/shared/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [ca30b461] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
+ DEBUG [ca30b461] Finished in 0.159 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/pushkin/shared/config/database.yml does not exist on 92.53.91.84
