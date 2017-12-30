@@ -15,4 +15,4 @@ set :rvm_ruby_version, '2.4.1'
 
 set :puma_preload_app, true
 set :puma_init_active_record, true
-set :puma_bind, "unix:///var/www/pushkin/shared/sockets/puma.sock"
+set :puma_bind, "unix:///var/www/pushkin/shared/tmp/sockets/puma.sock"
