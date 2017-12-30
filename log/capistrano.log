@@ -6237,3 +6237,53 @@ and the repository exists.
   INFO [b502b896] Running /usr/bin/env rm -rf /var/www/pushkin/releases/20171230112158 as deployer@92.53.91.84
  DEBUG [b502b896] Command: /usr/bin/env rm -rf /var/www/pushkin/releases/20171230112158
   INFO [b502b896] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 15:11:40 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [65c09c9a] Running [ -d ~/.rvm ] as deployer@92.53.91.84
+ DEBUG [65c09c9a] Command: [ -d ~/.rvm ]
+ DEBUG [65c09c9a] Finished in 0.916 seconds with exit status 0 (successful).
+ DEBUG [0acfbb2e] Running ~/.rvm/bin/rvm version as deployer@92.53.91.84
+ DEBUG [0acfbb2e] Command: ~/.rvm/bin/rvm version
+ DEBUG [0acfbb2e] 	rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [0acfbb2e] Finished in 0.329 seconds with exit status 0 (successful).
+ DEBUG [08cdeda5] Running ~/.rvm/bin/rvm current as deployer@92.53.91.84
+ DEBUG [08cdeda5] Command: ~/.rvm/bin/rvm current
+ DEBUG [08cdeda5] 	ruby-2.4.1
+ DEBUG [08cdeda5] Finished in 0.306 seconds with exit status 0 (successful).
+ DEBUG [d3669768] Running ~/.rvm/bin/rvm 2.4.3 do ruby --version as deployer@92.53.91.84
+ DEBUG [d3669768] Command: ~/.rvm/bin/rvm 2.4.3 do ruby --version
+ DEBUG [d3669768] 	Ruby ruby-2.4.3 is not installed.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 15:12:53 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1bb4b953] Running [ -d ~/.rvm ] as deployer@92.53.91.84
+ DEBUG [1bb4b953] Command: [ -d ~/.rvm ]
+ DEBUG [1bb4b953] Finished in 0.855 seconds with exit status 0 (successful).
+ DEBUG [6e5e8ed7] Running ~/.rvm/bin/rvm version as deployer@92.53.91.84
+ DEBUG [6e5e8ed7] Command: ~/.rvm/bin/rvm version
+ DEBUG [6e5e8ed7] 	rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [6e5e8ed7] Finished in 0.302 seconds with exit status 0 (successful).
+ DEBUG [133c66bc] Running ~/.rvm/bin/rvm current as deployer@92.53.91.84
+ DEBUG [133c66bc] Command: ~/.rvm/bin/rvm current
+ DEBUG [133c66bc] 	ruby-2.4.1
+ DEBUG [133c66bc] Finished in 0.280 seconds with exit status 0 (successful).
+ DEBUG [bf8d04ef] Running ~/.rvm/bin/rvm 2.4.1 do ruby --version as deployer@92.53.91.84
+ DEBUG [bf8d04ef] Command: ~/.rvm/bin/rvm 2.4.1 do ruby --version
+ DEBUG [bf8d04ef] 	ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+ DEBUG [bf8d04ef] Finished in 0.396 seconds with exit status 0 (successful).
+  INFO [21ab4e6e] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [21ab4e6e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [21ab4e6e] Finished in 0.120 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-vadim.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-vadim.sh 100.0%
+  INFO [2915db52] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh as deployer@92.53.91.84
+ DEBUG [2915db52] Command: /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-vadim.sh
+  INFO [2915db52] Finished in 0.125 seconds with exit status 0 (successful).
+  INFO [108def2e] Running /usr/bin/env git ls-remote git@github.com:Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [108def2e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-vadim.sh" ; /usr/bin/env git ls-remote git@github.com:Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [108def2e] 	Permission denied (publickey).
+ DEBUG [108def2e] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
