@@ -784,3 +784,140 @@ and the repository exists.
  DEBUG [ca30b461] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
  DEBUG [ca30b461] Finished in 0.159 seconds with exit status 1 (failed).
  ERROR linked file /var/www/pushkin/shared/config/database.yml does not exist on 92.53.91.84
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 11:26:53 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [210a69c3] Running [ -d ~/.rvm ] as deployer@92.53.91.84
+ DEBUG [210a69c3] Command: [ -d ~/.rvm ]
+ DEBUG [210a69c3] Finished in 0.727 seconds with exit status 0 (successful).
+ DEBUG [aa55ebaf] Running ~/.rvm/bin/rvm version as deployer@92.53.91.84
+ DEBUG [aa55ebaf] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm version )
+ DEBUG [aa55ebaf] 	rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [aa55ebaf] 	
+ DEBUG [aa55ebaf] Finished in 0.355 seconds with exit status 0 (successful).
+ DEBUG [70e5efc2] Running ~/.rvm/bin/rvm current as deployer@92.53.91.84
+ DEBUG [70e5efc2] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm current )
+ DEBUG [70e5efc2] 	ruby-2.4.1
+ DEBUG [70e5efc2] 	
+ DEBUG [70e5efc2] Finished in 0.331 seconds with exit status 0 (successful).
+ DEBUG [c5b764e3] Running ~/.rvm/bin/rvm default do ruby --version as deployer@92.53.91.84
+ DEBUG [c5b764e3] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm default do ruby --version )
+ DEBUG [c5b764e3] 	ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+ DEBUG [c5b764e3] 	
+ DEBUG [c5b764e3] Finished in 0.445 seconds with exit status 0 (successful).
+  INFO [c2b61d40] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [c2b61d40] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /tmp )
+  INFO [c2b61d40] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 100.0%
+  INFO [863960ee] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh as deployer@92.53.91.84
+ DEBUG [863960ee] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh )
+  INFO [863960ee] Finished in 0.161 seconds with exit status 0 (successful).
+  INFO [91d8029b] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [91d8029b] Command: ( export PATH="/opt/ruby/bin:$PATH" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-Vadser.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [91d8029b] 	99f53471d2236017873fe59f125f890919afb21c
+ DEBUG [91d8029b] 		HEAD
+  INFO [91d8029b] Finished in 0.917 seconds with exit status 0 (successful).
+  INFO [2ae72e35] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [2ae72e35] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases )
+  INFO [2ae72e35] Finished in 0.150 seconds with exit status 0 (successful).
+  INFO [18279e5c] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets as deployer@92.53.91.84
+ DEBUG [18279e5c] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets )
+  INFO [18279e5c] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [bfa4a35f] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/config as deployer@92.53.91.84
+ DEBUG [bfa4a35f] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/config )
+  INFO [bfa4a35f] Finished in 0.152 seconds with exit status 0 (successful).
+ DEBUG [38fdb080] Running [ -f /var/www/pushkin/shared/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [38fdb080] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
+ DEBUG [38fdb080] Finished in 0.154 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/pushkin/shared/config/database.yml does not exist on 92.53.91.84
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 11:28:01 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9e4fd5d3] Running [ -d ~/.rvm ] as deployer@92.53.91.84
+ DEBUG [9e4fd5d3] Command: [ -d ~/.rvm ]
+ DEBUG [9e4fd5d3] Finished in 1.429 seconds with exit status 0 (successful).
+ DEBUG [58388970] Running ~/.rvm/bin/rvm version as deployer@92.53.91.84
+ DEBUG [58388970] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm version )
+ DEBUG [58388970] 	rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [58388970] Finished in 0.318 seconds with exit status 0 (successful).
+ DEBUG [518068ed] Running ~/.rvm/bin/rvm current as deployer@92.53.91.84
+ DEBUG [518068ed] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm current )
+ DEBUG [518068ed] 	ruby-2.4.1
+ DEBUG [518068ed] Finished in 0.317 seconds with exit status 0 (successful).
+ DEBUG [d20e0574] Running ~/.rvm/bin/rvm default do ruby --version as deployer@92.53.91.84
+ DEBUG [d20e0574] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm default do ruby --version )
+ DEBUG [d20e0574] 	ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+ DEBUG [d20e0574] Finished in 0.431 seconds with exit status 0 (successful).
+  INFO [9340e9b3] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [9340e9b3] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /tmp )
+  INFO [9340e9b3] Finished in 0.160 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 100.0%
+  INFO [d86e18df] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh as deployer@92.53.91.84
+ DEBUG [d86e18df] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh )
+  INFO [d86e18df] Finished in 0.177 seconds with exit status 0 (successful).
+  INFO [0afb705f] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [0afb705f] Command: ( export PATH="/opt/ruby/bin:$PATH" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-Vadser.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [0afb705f] 	99f53471d2236017873fe59f125f890919afb21c	HEAD
+  INFO [0afb705f] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [be0e5ef3] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [be0e5ef3] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases )
+  INFO [be0e5ef3] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [ef10b734] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets as deployer@92.53.91.84
+ DEBUG [ef10b734] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets )
+  INFO [ef10b734] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [4cc1d7c9] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/config as deployer@92.53.91.84
+ DEBUG [4cc1d7c9] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/config )
+  INFO [4cc1d7c9] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [85b5748f] Running [ -f /var/www/pushkin/shared/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [85b5748f] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
+ DEBUG [85b5748f] Finished in 0.160 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/pushkin/shared/config/database.yml does not exist on 92.53.91.84
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-12-30 11:34:13 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d05c6e6f] Running [ -d ~/.rvm ] as deployer@92.53.91.84
+ DEBUG [d05c6e6f] Command: [ -d ~/.rvm ]
+ DEBUG [d05c6e6f] Finished in 1.237 seconds with exit status 0 (successful).
+ DEBUG [a58064f6] Running ~/.rvm/bin/rvm version as deployer@92.53.91.84
+ DEBUG [a58064f6] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm version )
+ DEBUG [a58064f6] 	rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [a58064f6] 	
+ DEBUG [a58064f6] Finished in 0.326 seconds with exit status 0 (successful).
+ DEBUG [8ef63c9e] Running ~/.rvm/bin/rvm current as deployer@92.53.91.84
+ DEBUG [8ef63c9e] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm current )
+ DEBUG [8ef63c9e] 	ruby-2.4.1
+ DEBUG [8ef63c9e] 	
+ DEBUG [8ef63c9e] Finished in 0.305 seconds with exit status 0 (successful).
+ DEBUG [424cf8c8] Running ~/.rvm/bin/rvm default do ruby --version as deployer@92.53.91.84
+ DEBUG [424cf8c8] Command: ( export PATH="/opt/ruby/bin:$PATH" ; ~/.rvm/bin/rvm default do ruby --version )
+ DEBUG [424cf8c8] 	ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+ DEBUG [424cf8c8] 	
+ DEBUG [424cf8c8] Finished in 0.440 seconds with exit status 0 (successful).
+  INFO [1e4e8dc4] Running /usr/bin/env mkdir -p /tmp as deployer@92.53.91.84
+ DEBUG [1e4e8dc4] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /tmp )
+  INFO [1e4e8dc4] Finished in 0.139 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 0.0%
+  INFO Uploading /tmp/git-ssh-pushkin-production-Vadser.sh 100.0%
+  INFO [e2ba6182] Running /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh as deployer@92.53.91.84
+ DEBUG [e2ba6182] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env chmod 700 /tmp/git-ssh-pushkin-production-Vadser.sh )
+  INFO [e2ba6182] Finished in 0.148 seconds with exit status 0 (successful).
+  INFO [a4cef20a] Running /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD as deployer@92.53.91.84
+ DEBUG [a4cef20a] Command: ( export PATH="/opt/ruby/bin:$PATH" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-pushkin-production-Vadser.sh" ; /usr/bin/env git ls-remote https://github.com/Vadser/pushkin-contest-bot..git HEAD )
+ DEBUG [a4cef20a] 	99f53471d2236017873fe59f125f890919afb21c
+ DEBUG [a4cef20a] 		HEAD
+  INFO [a4cef20a] Finished in 0.898 seconds with exit status 0 (successful).
+  INFO [9da88bf5] Running /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases as deployer@92.53.91.84
+ DEBUG [9da88bf5] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared /var/www/pushkin/releases )
+  INFO [9da88bf5] Finished in 0.146 seconds with exit status 0 (successful).
+  INFO [6f0d8c52] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets as deployer@92.53.91.84
+ DEBUG [6f0d8c52] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/log /var/www/pushkin/shared/tmp/pids /var/www/pushkin/shared/tmp/cache /var/www/pushkin/shared/tmp/sockets /var/www/pushkin/shared/public/system /var/www/pushkin/shared/public/assets )
+  INFO [6f0d8c52] Finished in 0.143 seconds with exit status 0 (successful).
+  INFO [94c0fd6f] Running /usr/bin/env mkdir -p /var/www/pushkin/shared/config as deployer@92.53.91.84
+ DEBUG [94c0fd6f] Command: ( export PATH="/opt/ruby/bin:$PATH" ; /usr/bin/env mkdir -p /var/www/pushkin/shared/config )
+  INFO [94c0fd6f] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [bbb4ef60] Running [ -f /var/www/pushkin/shared/config/database.yml ] as deployer@92.53.91.84
+ DEBUG [bbb4ef60] Command: [ -f /var/www/pushkin/shared/config/database.yml ]
+ DEBUG [bbb4ef60] Finished in 0.147 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/pushkin/shared/config/database.yml does not exist on 92.53.91.84
