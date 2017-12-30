@@ -57,7 +57,6 @@ gem 'mechanize'
 group :production do
   gem 'unicorn'
 end
-gem 'capistrano-linked-files'
 group :development do
     gem 'capistrano'         
     gem 'capistrano-rvm'    
@@ -66,6 +65,7 @@ group :development do
      gem 'capistrano-sidekiq' 
     gem 'capistrano3-puma'   
     gem 'capistrano-db-tasks'
+   gem 'listen'
 end
 
 
